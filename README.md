@@ -1,3 +1,6 @@
+## Demo
+https://glacial-retreat-92539.herokuapp.com/
+
 ## Three.js
 https://threejs.org/
 
@@ -6,16 +9,12 @@ https://threejs.org/
 Uncaught TypeError: Failed to resolve module specifier "three". Relative references must start with either "/", "./", or "../"
 ```
 
-`
-./jsm/controls/FlyControls.js
-`
+**./jsm/controls/FlyControls.js**
 
 5行目
 `from 'three';` の部分を `from '../../../build/three.module.js';` に変更
 
-`
-./jsm/objects/Lensflare.js
-`
+**./jsm/objects/Lensflare.js**
 
 16行目
 `from 'three';` の部分を `from '../../../build/three.module.js';` に変更
