@@ -11,11 +11,11 @@ Uncaught TypeError: Failed to resolve module specifier "three". Relative referen
 `
 
 5行目
-from 'three'; の部分を from '../../../build/three.module.js'; に変更
+`from 'three';` の部分を `from '../../../build/three.module.js';` に変更
 
 `
 ./jsm/objects/Lensflare.js
 `
 
 16行目
-from 'three'; の部分を from '../../../build/three.module.js'; に変更
+`from 'three';` の部分を `from '../../../build/three.module.js';` に変更
